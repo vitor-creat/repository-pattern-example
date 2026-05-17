@@ -1,4 +1,3 @@
-import { waitForDebugger } from 'node:inspector'
 import { pool } from '../../database/connection.js'
 import { Book } from '../../domain/Books.js'
 import {type IBooksRepo}  from '../IBooksRepo.js'
